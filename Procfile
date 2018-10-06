@@ -1,1 +1,1 @@
-web: gunicorn hp3.wsgi.application --log-file -
+web: gunicorn hp3.wsgi --log-file -
